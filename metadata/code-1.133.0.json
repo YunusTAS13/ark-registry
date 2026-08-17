@@ -1,0 +1,11 @@
+{
+  "name": "code",
+  "version": "1.133.0",
+  "description": "Visual Studio Code — kod editörü",
+  "arch": "amd64",
+  "publishedAt": "2026-08-17T15:40:49+03:00",
+  "size": 354004315,
+  "sha256": "d09534cba0897a40d4245d9f9cd8a094d2408e04bd064606d63dade014f4b7a2",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/code-1.133.0/code-1.133.0.ark",
+  "author": "YunusTAS13"
+}
