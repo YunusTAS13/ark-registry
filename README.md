@@ -5,7 +5,7 @@
 ## Kurulum
 
 ```bash
-curl -L -o ark https://github.com/YunusTAS13/ark-registry/releases/download/ark-v0.1.0/ark-linux-amd64
+curl -L -o ark https://github.com/YunusTAS13/ark-registry/releases/download/ark-v0.1.0/ark
 chmod +x ark
 sudo mv ark /usr/local/bin/
 ```
