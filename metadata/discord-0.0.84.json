@@ -1,0 +1,11 @@
+{
+  "name": "discord",
+  "version": "0.0.84",
+  "description": "Discord — sesli ve yazılı sohbet platformu",
+  "arch": "amd64",
+  "publishedAt": "2026-08-17T15:38:02+03:00",
+  "size": 104397775,
+  "sha256": "b1db454f5edda161a64f53a6e9dd176414c211bef2ea37e3afcf23776a9170fa",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/discord-0.0.84/discord-0.0.84.ark",
+  "author": "YunusTAS13"
+}
