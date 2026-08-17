@@ -1,0 +1,11 @@
+{
+  "name": "google-chrome",
+  "version": "151.0.7922.137",
+  "description": "Google Chrome — Google'dan web tarayıcısı",
+  "arch": "amd64",
+  "publishedAt": "2026-08-17T15:38:59+03:00",
+  "size": 202445263,
+  "sha256": "4543b02d56325eefaacae7fe2ec2d1f516bf119bd2bae5f4fad9f91ed74badd9",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/google-chrome-151.0.7922.137/google-chrome-151.0.7922.137.ark",
+  "author": "YunusTAS13"
+}
