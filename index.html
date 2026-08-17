@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ark Registry</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>ark Registry</h1>
+  <p>.ark paketlerinin ücretsiz, sunucusuz kayıt defteri</p>
+</header>
+<nav class="actions">
+  <a class="btn" href="https://github.com/YunusTAS13/ark-registry/releases/download/ark-v0.1.0/ark-linux-amd64">ark'ı indir</a>
+  <input id="search" type="search" placeholder="paket ara...">
+</nav>
+<main id="packages" class="grid"></main>
+<footer>
+  <p>Kendi paketini yayınla: <code>ark build klasör</code> → <code>ARK_GITHUB_TOKEN=... ark publish paket.ark</code></p>
+  <p>Kur: <code>sudo ark install paket-adı</code></p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
