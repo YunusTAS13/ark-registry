@@ -10,6 +10,17 @@
       "sha256": "b1db454f5edda161a64f53a6e9dd176414c211bef2ea37e3afcf23776a9170fa",
       "url": "https://github.com/YunusTAS13/ark-registry/releases/download/discord-0.0.84/discord-0.0.84.ark",
       "author": "YunusTAS13"
+    },
+    "google-chrome": {
+      "name": "google-chrome",
+      "version": "151.0.7922.137",
+      "description": "Google Chrome — Google'dan web tarayıcısı",
+      "arch": "amd64",
+      "publishedAt": "2026-08-17T15:38:59+03:00",
+      "size": 202445263,
+      "sha256": "4543b02d56325eefaacae7fe2ec2d1f516bf119bd2bae5f4fad9f91ed74badd9",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/google-chrome-151.0.7922.137/google-chrome-151.0.7922.137.ark",
+      "author": "YunusTAS13"
     }
   }
 }
