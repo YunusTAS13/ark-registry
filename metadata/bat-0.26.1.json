@@ -1,0 +1,11 @@
+{
+  "name": "bat",
+  "version": "0.26.1",
+  "description": "Sözdizimi renklendirmeli cat alternatifi",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 3693134,
+  "sha256": "8a1f0a8ac85edb6bfb72d5d73d2e3edbb81dc5e664a1480c6c5eb7723dfada37",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/bat-0.26.1.ark",
+  "author": "YunusTAS13"
+}

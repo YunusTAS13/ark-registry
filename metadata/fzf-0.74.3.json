@@ -1,0 +1,11 @@
+{
+  "name": "fzf",
+  "version": "0.74.3",
+  "description": "Komut satırı bulanık arama aracı",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 2068267,
+  "sha256": "61c488c4496223e40a60763b70a730b3e5113eb80c2d600cfda5c31a094916e5",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/fzf-0.74.3.ark",
+  "author": "YunusTAS13"
+}

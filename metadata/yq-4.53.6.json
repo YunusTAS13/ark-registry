@@ -1,0 +1,11 @@
+{
+  "name": "yq",
+  "version": "4.53.6",
+  "description": "Komut satırı YAML ve JSON işlemcisi",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 5910394,
+  "sha256": "514bb99456dcd5bc8a130d190ad52aaf33d6d42f6b52689b63a656454c487974",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/yq-4.53.6.ark",
+  "author": "YunusTAS13"
+}

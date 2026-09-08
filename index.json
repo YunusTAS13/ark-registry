@@ -32,6 +32,116 @@
       "sha256": "4543b02d56325eefaacae7fe2ec2d1f516bf119bd2bae5f4fad9f91ed74badd9",
       "url": "https://github.com/YunusTAS13/ark-registry/releases/download/google-chrome-151.0.7922.137/google-chrome-151.0.7922.137.ark",
       "author": "YunusTAS13"
+    },
+    "bat": {
+      "name": "bat",
+      "version": "0.26.1",
+      "description": "Sözdizimi renklendirmeli cat alternatifi",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 3693134,
+      "sha256": "8a1f0a8ac85edb6bfb72d5d73d2e3edbb81dc5e664a1480c6c5eb7723dfada37",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/bat-0.26.1.ark",
+      "author": "YunusTAS13"
+    },
+    "btop": {
+      "name": "btop",
+      "version": "1.4.7",
+      "description": "Kaynak kullanımı ve süreç izleyicisi",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 1057541,
+      "sha256": "ee51c73931ed72146abdef60154c92708c1acc0fca59bc510aca07edfab44008",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/btop-1.4.7.ark",
+      "author": "YunusTAS13"
+    },
+    "delta": {
+      "name": "delta",
+      "version": "0.19.2",
+      "description": "Git diff görüntüleyici",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 3555449,
+      "sha256": "dd6dd01715d5972a1702aba3c5fea24aede012f4f468e50243444114ce3106c0",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/delta-0.19.2.ark",
+      "author": "YunusTAS13"
+    },
+    "dust": {
+      "name": "dust",
+      "version": "1.2.5",
+      "description": "Disk kullanımını görselleştiren du alternatifi",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 1315978,
+      "sha256": "4ffab5816a710450a339b92c19d63914893fb3a2c68847aace53746eb48bcb15",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/dust-1.2.5.ark",
+      "author": "YunusTAS13"
+    },
+    "eza": {
+      "name": "eza",
+      "version": "0.23.5",
+      "description": "Modern ve renkli ls alternatifi",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 1478999,
+      "sha256": "58d1124b74582df7d2d9f89e826aa6564f5b4097f268004854d2df5647f4b0d3",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/eza-0.23.5.ark",
+      "author": "YunusTAS13"
+    },
+    "fd": {
+      "name": "fd",
+      "version": "10.5.0",
+      "description": "Kullanıcı dostu hızlı dosya bulucu",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 1606777,
+      "sha256": "fb4bda7591826bff28a0813af1016ec68fdb9347d0f86737e5d1ffca283edd1a",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/fd-10.5.0.ark",
+      "author": "YunusTAS13"
+    },
+    "fzf": {
+      "name": "fzf",
+      "version": "0.74.3",
+      "description": "Komut satırı bulanık arama aracı",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 2068267,
+      "sha256": "61c488c4496223e40a60763b70a730b3e5113eb80c2d600cfda5c31a094916e5",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/fzf-0.74.3.ark",
+      "author": "YunusTAS13"
+    },
+    "jq": {
+      "name": "jq",
+      "version": "1.8.2",
+      "description": "Komut satırı JSON işlemcisi",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 1044471,
+      "sha256": "e17099cc220e055ebf64f6e1964bb5947039af081a7c8a4a3606d29262dd8216",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/jq-1.8.2.ark",
+      "author": "YunusTAS13"
+    },
+    "ripgrep": {
+      "name": "ripgrep",
+      "version": "15.2.0",
+      "description": "Hızlı recursive metin arama aracı",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 2266322,
+      "sha256": "ac1d9c0ebace317c56df84f4f553f5d93b2e5667e4a3f577820f1b497e64b361",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/ripgrep-15.2.0.ark",
+      "author": "YunusTAS13"
+    },
+    "yq": {
+      "name": "yq",
+      "version": "4.53.6",
+      "description": "Komut satırı YAML ve JSON işlemcisi",
+      "arch": "x86_64",
+      "publishedAt": "2026-09-08T16:12:15+03:00",
+      "size": 5910394,
+      "sha256": "514bb99456dcd5bc8a130d190ad52aaf33d6d42f6b52689b63a656454c487974",
+      "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/yq-4.53.6.ark",
+      "author": "YunusTAS13"
     }
   }
 }

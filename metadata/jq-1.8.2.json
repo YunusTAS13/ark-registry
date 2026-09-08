@@ -1,0 +1,11 @@
+{
+  "name": "jq",
+  "version": "1.8.2",
+  "description": "Komut satırı JSON işlemcisi",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 1044471,
+  "sha256": "e17099cc220e055ebf64f6e1964bb5947039af081a7c8a4a3606d29262dd8216",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/jq-1.8.2.ark",
+  "author": "YunusTAS13"
+}

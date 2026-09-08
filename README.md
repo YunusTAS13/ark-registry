@@ -2,6 +2,16 @@
 
 **Sürüm: 1.1**
 
+## 1.1 — Hatalar ve Düzeltmeler
+
+- Registry paketlerinin bağımlılıkları önceden kurulmak zorundaydı; artık bağımlılıklar sırayla registry’den otomatik kuruluyor.
+- Bağımlılık döngüleri kontrol edilmiyordu; döngü tespiti ve açıklayıcı hata mesajı eklendi.
+- Kötü niyetli arşivlerde yol taşması ve sembolik link üzerinden dışarı yazma riski vardı; güvenli yol, parent dizin ve tekrar eden kayıt kontrolleri eklendi.
+- Paket mimarisi doğrulanmıyordu; `amd64/x86_64` ve `arm64/aarch64` uyumluluk kontrolü eklendi.
+- `ark verify` bozuk dosya bulsa da başarılı exit code döndürüyordu; artık hata kodu 1 döndürüyor.
+- Kurulum yarıda kaldığında masaüstü dosyası ve ikon artıkları kalabiliyordu; hata temizliği genişletildi.
+- Büyük dosyalar paketleme ve GitHub asset yükleme sırasında tamamen belleğe alınıyordu; akış tabanlı işlem kullanılıyor.
+
 > Bir paket. Her Linux. Ücretsiz, sunucusuz, açık.
 
 **ark**, her Linux dağıtımında aynı şekilde çalışan evrensel bir paket yöneticisidir. Bir kez üretilmiş `.ark` paketi **Debian, Arch, Fedora, openSUSE, Alpine** ve diğer her dağıtımda — hangi paket yöneticisini kullandıklarından bağımsız olarak — kurulur.
@@ -452,6 +462,16 @@ Bu, paketlerini zararsız bir sandbox'ta denemek için mükemmeldir. Kök deği�
 | google-chrome | 151.0.7922.137 | Google Chrome web tarayıcısı | `sudo ark install google-chrome` |
 | code | 1.133.0 | VS Code editörü | `sudo ark install code` |
 | discord | 0.0.84 | Discord sohbet uygulaması | `sudo ark install discord` |
+| btop | 1.4.7 | Sistem ve süreç izleyicisi | `sudo ark install btop` |
+| bat | 0.26.1 | Renklendirmeli cat alternatifi | `sudo ark install bat` |
+| fd | 10.5.0 | Hızlı dosya bulucu | `sudo ark install fd` |
+| ripgrep | 15.2.0 | Hızlı metin arama aracı | `sudo ark install ripgrep` |
+| fzf | 0.74.3 | Bulanık arama aracı | `sudo ark install fzf` |
+| jq | 1.8.2 | JSON işlemcisi | `sudo ark install jq` |
+| yq | 4.53.6 | YAML/JSON işlemcisi | `sudo ark install yq` |
+| delta | 0.19.2 | Git diff görüntüleyici | `sudo ark install delta` |
+| dust | 1.2.5 | Disk kullanım analiz aracı | `sudo ark install dust` |
+| eza | 0.23.5 | Modern ls alternatifi | `sudo ark install eza` |
 
 Hepsini bir arada:
 
@@ -459,6 +479,16 @@ Hepsini bir arada:
 sudo ark install google-chrome
 sudo ark install code
 sudo ark install discord
+sudo ark install btop
+sudo ark install bat
+sudo ark install fd
+sudo ark install ripgrep
+sudo ark install fzf
+sudo ark install jq
+sudo ark install yq
+sudo ark install delta
+sudo ark install dust
+sudo ark install eza
 ```
 
 Mağazadan gez: <https://yunustas13.github.io/ark-registry/>

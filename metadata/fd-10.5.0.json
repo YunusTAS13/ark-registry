@@ -1,0 +1,11 @@
+{
+  "name": "fd",
+  "version": "10.5.0",
+  "description": "Kullanıcı dostu hızlı dosya bulucu",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 1606777,
+  "sha256": "fb4bda7591826bff28a0813af1016ec68fdb9347d0f86737e5d1ffca283edd1a",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/fd-10.5.0.ark",
+  "author": "YunusTAS13"
+}

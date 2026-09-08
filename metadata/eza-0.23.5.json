@@ -1,0 +1,11 @@
+{
+  "name": "eza",
+  "version": "0.23.5",
+  "description": "Modern ve renkli ls alternatifi",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 1478999,
+  "sha256": "58d1124b74582df7d2d9f89e826aa6564f5b4097f268004854d2df5647f4b0d3",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/eza-0.23.5.ark",
+  "author": "YunusTAS13"
+}

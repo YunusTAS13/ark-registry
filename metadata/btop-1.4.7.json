@@ -1,0 +1,11 @@
+{
+  "name": "btop",
+  "version": "1.4.7",
+  "description": "Kaynak kullanımı ve süreç izleyicisi",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 1057541,
+  "sha256": "ee51c73931ed72146abdef60154c92708c1acc0fca59bc510aca07edfab44008",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/btop-1.4.7.ark",
+  "author": "YunusTAS13"
+}

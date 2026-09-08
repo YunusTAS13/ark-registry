@@ -1,0 +1,11 @@
+{
+  "name": "dust",
+  "version": "1.2.5",
+  "description": "Disk kullanımını görselleştiren du alternatifi",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 1315978,
+  "sha256": "4ffab5816a710450a339b92c19d63914893fb3a2c68847aace53746eb48bcb15",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/dust-1.2.5.ark",
+  "author": "YunusTAS13"
+}

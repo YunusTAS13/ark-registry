@@ -1,0 +1,11 @@
+{
+  "name": "delta",
+  "version": "0.19.2",
+  "description": "Git diff görüntüleyici",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 3555449,
+  "sha256": "dd6dd01715d5972a1702aba3c5fea24aede012f4f468e50243444114ce3106c0",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/delta-0.19.2.ark",
+  "author": "YunusTAS13"
+}

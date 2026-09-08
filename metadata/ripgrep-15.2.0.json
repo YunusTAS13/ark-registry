@@ -1,0 +1,11 @@
+{
+  "name": "ripgrep",
+  "version": "15.2.0",
+  "description": "Hızlı recursive metin arama aracı",
+  "arch": "x86_64",
+  "publishedAt": "2026-09-08T16:12:15+03:00",
+  "size": 2266322,
+  "sha256": "ac1d9c0ebace317c56df84f4f553f5d93b2e5667e4a3f577820f1b497e64b361",
+  "url": "https://github.com/YunusTAS13/ark-registry/releases/download/ark-apps-v1.1/ripgrep-15.2.0.ark",
+  "author": "YunusTAS13"
+}
