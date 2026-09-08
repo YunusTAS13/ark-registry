@@ -1,5 +1,7 @@
 # ark — Evrensel Linux Paket Yöneticisi
 
+**Sürüm: 1.1**
+
 > Bir paket. Her Linux. Ücretsiz, sunucusuz, açık.
 
 **ark**, her Linux dağıtımında aynı şekilde çalışan evrensel bir paket yöneticisidir. Bir kez üretilmiş `.ark` paketi **Debian, Arch, Fedora, openSUSE, Alpine** ve diğer her dağıtımda — hangi paket yöneticisini kullandıklarından bağımsız olarak — kurulur.
@@ -97,7 +99,7 @@ Sunucusuz, bakımsız, ücretsiz. Vizyon budur: **herhangi biri, bir komutla, ke
 İndir, çalıştırılabilir yap, `/usr/local/bin`'e koy. Hepsi bu.
 
 ```bash
-curl -L -o ark https://github.com/YunusTAS13/ark-registry/releases/download/ark-v0.1.0/ark
+curl -L -o ark https://github.com/YunusTAS13/ark-registry/releases/download/ark-v1.1/ark
 chmod +x ark
 sudo mv ark /usr/local/bin/
 ```
@@ -145,7 +147,7 @@ Kurulumdan sonra uygulama masaüstü menüsünde görünür; Google Chrome'u uyg
 Paketi kurar.
 - Argüman `.ark` ile bitiyorsa o dosyadan kurar.
 - Değilse registry'den o adı arar, indirir, **SHA-256 doğrular**, kurar.
-- Bağımlılıklar (`dependencies`) önceden kurulmuş olmalıdır; aksi halde hata verir ve listeler.
+- Registry paketlerinin eksik bağımlılıkları (`dependencies`) kurulumdan önce otomatik çözülür ve aynı registry'den kurulur.
 - Zaten kuruluysa, farklı bir paket aynı isimde kullanılamaz.
 
 ### `ark remove <isim>`
@@ -211,7 +213,7 @@ Paket hakkındaki tüm bilgi tek bir JSON'dadır:
 | `version` | evet | Herhangi bir sürüm dizisi. |
 | `description` | hayır | Arama ve bilgide gösterilen açıklama. |
 | `arch` | hayır | Hedef mimari (ör. `amd64`, `arm64`). |
-| `dependencies` | hayır | Kurulmadan önce sistemde olması gereken paket adları. |
+| `dependencies` | hayır | Kurulumdan önce registry'den otomatik çözülen paket adları. |
 | `executables` | hayır | `/usr/local/bin` içine bağlanacak dosyaların **paket içindeki** yolları. Boşsa `ark build` çalıştırılabilirleri otomatik bulur. |
 
 `executables` içindeki her yol, `/opt/ark/<isim>-<sürüm>/` altına göre olmalıdır (mutlak yol veya `..` içeremez).
@@ -470,7 +472,7 @@ ark'ın vizyonu büyüyor. Planlanan adımlar:
 - [ ] **`ark import <dosya.deb|rpm>`** — mevcut paket formatlarını tek komutla `.ark`'a çeviren evrensel içe aktarıcı (üretimin en zahmetli adımını otomatikleştirir).
 - [ ] **GPG imzalama** — paketlerin ve index'in kriptografik doğrulaması.
 - [ ] **zstd + paralel çıkarma** — daha küçük paketler, daha hızlı kurulum.
-- [ ] **Otomatik bağımlılık çözme** — `dependencies` alanındaki eksikleri registry'den kendisi kurar.
+- [x] **Otomatik bağımlılık çözme** — `dependencies` alanındaki eksikleri registry'den kendisi kurar.
 - [ ] **Sürüm yönetimi** — aynı paketin birden çok sürümü ve geçiş (`ark upgrade`).
 - [ ] **A/arm64 çoklu mimari** — aynı paket adı altında mimariye göre doğru ikiliyi seçme.
 - [ ] **Delta güncellemeleri** — sadece değişen kısmı indirerek küçük güncellemeler.
